@@ -1,0 +1,52 @@
+＊{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: YuGothic, "游ゴシック", "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", sans-serif;
+    back-ground-color: #ddd;
+    font-size: 14px;
+}
+header{
+    background-image: url("haikei.png");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-height: 460px;
+}
+#logo{
+    padding: 30px 0;
+    text-align: center;
+}
+
+#logo img{
+    max-width: 300px;
+    max-height:300px;
+    border: 7px solid #4169E1;
+    border-radius: 100%;
+}
+
+.container{
+    max-width: 800px;
+    margin: -30px auto 0;
+    background-image: url("mojihaikei.png");
+    padding:10px 20px;
+    text-align: center;
+    font-size: 120%;
+}
+
+#logo h1{
+    letter-spacing: 0.15em;
+    color: #4169E1;
+    text-shadow: 1px 1px 0 #9057ff;
+    margin-top:20px;
+}
+
+footer{
+    padding: 20px 0;
+    font-size: 140%;
+    background-color: #4169E1;
+    color: #fff;
+    text-align: center;
+}
+
